@@ -120,8 +120,12 @@ header img {
   .main {
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 8rem;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  header {
+    width: 420px;
   }
 
   header img {
